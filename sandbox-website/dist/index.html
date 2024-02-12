@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> sandbox </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet"> 
+  <!-- Include Roboto -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <style>
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .text-overlay .title {
+      font-size: 50px;
+      font-weight: bold;
+      color: #282828; /* Adjust color to match design */
+    }
+
+    .text-overlay .subtitle {
+      font-size: 24px;
+      font-weight: normal;
+      color: black; /* Adjust color to match design */
+      margin-top: 5px; /* Add space above the subtitle */
+    }
+  </style>
+</head>
+
+<body>
+  <canvas class="orb-canvas"></canvas>
+  <div class="text-overlay">
+    <div class="title"><a href="mailto:email@example.com" class="email-link">sandbox.ai</a></div>
+    <!-- <div class="subtitle">IA Generativa</div> -->
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
